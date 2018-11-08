@@ -33,4 +33,4 @@ predict_C = [[0,1,0,1],
              [1,0,1,1]]
 predict_C = np.array(predict_C)
 p_vec, p_lower_vec, p_upper_vec = HBM.ais2p(predict_C)
-'''
+```
