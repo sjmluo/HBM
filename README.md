@@ -2,7 +2,7 @@
 An implementation of the Higher-Order Boltzmann Machine. The implementation represents the boltzmann machine using the information geometry formulation of the log-linear model. The model is trained by minimising the KL-divergence and then using a combination of Gibbs sampling and Annuealed Importance Sampling (AIS) to estimate the partition function.
 
 Please see the following paper for more details:
-* Luo, S., Sugiyama, M.: ** Bias Variance Trade-Off in Hierarchical Probabilistic Models using Higher-Order Feature Interactions, AAAI 2019
+* Luo, S., Sugiyama, M.: ** Bias Variance Trade-Off in Hierarchical Probabilistic Models using Higher-Order Feature Interactions, AAAI 2019 **
 
 ## Usage
 An example on how to run the code:
