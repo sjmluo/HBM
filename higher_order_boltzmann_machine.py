@@ -128,7 +128,7 @@ class Higher_Order_Boltzmann_Machine():
         """
         N = self.X.shape[1]
         self.C_vec = list()
-        for d in range(self.order+1):
+        for d in np.arange(1,self.order+1):
             self._activate_nodes(np.zeros(N, dtype=bool), 0, N, d)
         self.C_vec = np.array(self.C_vec, dtype=bool)
 
